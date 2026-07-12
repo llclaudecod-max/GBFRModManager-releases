@@ -1,0 +1,7 @@
+{
+  "version": "2.0.1",
+  "notes": "## v2.0.1：修复国内网络部署报错 WinError 10054\n\n**问题**：第一次点「部署到游戏」时程序需要联网下载部署引擎 GBFRDataTools（来自 GitHub），国内网络直连常被重置，导致部署失败报 `WinError 10054 远程主机强迫关闭了一个现有的连接`。\n\n**本版修复**：\n- 新增 **完整版（-full.zip）**：部署引擎直接内置在包里，部署全程零联网，国内用户推荐\n- 标准版保留自动下载，失败时自动切换国内可达的镜像重试\n- 所有网络报错换成人话：告诉你是哪一步、什么原因、怎么解决（如需开启系统代理）\n- 网络瞬断自动重试一次；管理器自身检查更新/下载更新也支持镜像回退\n\n## 两个包怎么选\n\n| 包 | 适合谁 |\n|---|---|\n| **GBFRModManager-v2.0.1-full.zip** | **新用户推荐（尤其国内网络）**：内置部署引擎，解压即用，部署不联网 |\n| GBFRModManager-v2.0.1.zip | 体积小；老用户升级用（引擎已存在），程序内自动更新也是下载它 |\n\n**升级方式**：老版本用户直接在程序里「设置 → 关于与更新 → 检查更新」一键升级；或手动下载 zip 解压覆盖 `GBFRModManager.exe` 和 `_internal`（`GBFRModManager_Data` 数据目录不要动）。\n\n**提示**：浏览/下载 N 网模组仍需网络能访问 Nexus（需系统代理/加速器；仅浏览器内生效的代理插件对本程序无效）。GBFRDataTools 由 Nenkai & WistfulHopes 开发（MIT 许可）。",
+  "asset_name": "GBFRModManager-v2.0.1.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.1/GBFRModManager-v2.0.1.zip",
+  "size": 55408417
+}

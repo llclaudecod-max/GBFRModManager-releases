@@ -1,7 +1,7 @@
 {
-  "version": "2.0.6",
-  "notes": "v2.0.6：识别 Reloaded 代码模组（DLL Hook），导入时弹窗说明不再静默装",
-  "asset_name": "GBFRModManager-v2.0.6.zip",
-  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.6/GBFRModManager-v2.0.6.zip",
-  "size": 55513102
+  "version": "2.0.7",
+  "notes": "v2.0.7：修换装/裸模发白——保守材质修复模式",
+  "asset_name": "GBFRModManager-v2.0.7.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.7/GBFRModManager-v2.0.7.zip",
+  "size": 55515251
 }

@@ -1,7 +1,7 @@
 {
-  "version": "2.0.4",
-  "notes": "## v2.0.4：Reloaded 专用模组也能用了——JSON 自动转换 + 过时文件保护\n\n### 新功能\n\n**1. JSON→MSG 自动转换**\n很多 N 网模组（任务修改、FSM 脚本、场景布置类，比如「必出幻彩史莱姆」Guaranteed Spawn Prismatic Slime）只发 .json 文件，它们本来是 Reloaded-II 专用的——游戏实际只读 MessagePack 格式的 .msg。\n本版起部署时**自动把 .json 转换成 .msg**（转换精度与 Reloaded 的 utility.manager 完全等价），这类模组静态部署直接生效，无需 Reloaded-II。\n\n**2. 过时文件自动跳过**\n模组基于旧版本游戏制作时，里面部分文件的结构可能已经和当前游戏对不上（游戏更新增删了字段）——硬部署进去会破坏新版数据。本版部署时自动做**结构校验**，过时的文件自动跳过并在部署报告中说明，模组的有效改动照常生效。\n\n实测：「必出幻彩史莱姆」（N 网 #561）在本版下 6 个文件正常转换部署（必出效果生效），2 个过时文件被安全跳过。\n\n### 配合 v2.0.3 的老数值表迁移\n现在两类装了没效果的老模组都被自动救活：老掉落/奖励表模组（v2.0.3）+ Reloaded 专用 json 模组（本版）。部署完成弹窗会完整报告做了哪些自动处理。\n\n### 下载 / 升级\n- 老用户：程序内「设置 → 关于与更新 → 检查更新」一键升级\n- 新用户：下 `-full.zip` 完整版（内置部署引擎，国内零联网部署）",
-  "asset_name": "GBFRModManager-v2.0.4.zip",
-  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.4/GBFRModManager-v2.0.4.zip",
-  "size": 55508366
+  "version": "2.0.5",
+  "notes": "v2.0.5：一键从 Reloaded 迁移 + 修重装后提示未配置目录",
+  "asset_name": "GBFRModManager-v2.0.5.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.5/GBFRModManager-v2.0.5.zip",
+  "size": 55511280
 }

@@ -1,7 +1,7 @@
 {
-  "version": "2.0.5",
-  "notes": "v2.0.5：一键从 Reloaded 迁移 + 修重装后提示未配置目录",
-  "asset_name": "GBFRModManager-v2.0.5.zip",
-  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.5/GBFRModManager-v2.0.5.zip",
-  "size": 55511280
+  "version": "2.0.6",
+  "notes": "v2.0.6：识别 Reloaded 代码模组（DLL Hook），导入时弹窗说明不再静默装",
+  "asset_name": "GBFRModManager-v2.0.6.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.0.6/GBFRModManager-v2.0.6.zip",
+  "size": 55513102
 }

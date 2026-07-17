@@ -1,7 +1,7 @@
 {
-  "version": "2.6.0",
-  "notes": "## v2.6.0 · Reloaded-II 共生:代码模组也归我们管了\n\n### 这是什么\n\n之前的分工:换装/贴图/数值这类**数据模组**归本管理器,改游戏逻辑的**代码模组**(DLL,如改合成、显示详细数字那类)只能自己折腾 Reloaded-II。这版把两边打通——**代码模组也在本管理器里装、启用、禁用、删除,你不需要打开 Reloaded 的界面**。\n\n### 怎么用\n\n1. 自己装好 Reloaded-II 并在里面添加过一次游戏本体(仅首次);\n2. 本管理器「设置」→ 勾选**「启用 Reloaded-II 联动」**→ 选择 Reloaded-II 目录(即勾即生效);\n3. 之后一切照旧:代码模组直接丢进管理器安装(不再被拒绝),卡片上会挂**「⚡ 由 Reloaded 运行」**标记;\n4. **启用/禁用像普通模组一样操作,点「部署到游戏」统一生效**——部署会自动把它装进 Reloaded 并登记启用(摘要里能看到\"已同步到 Reloaded:xxx\"),缺依赖也会列出来;\n5. 启动游戏时选**「用 Reloaded 启动」**:数据模组 + 代码模组同时生效;选普通启动则只有数据模组。\n\n### 兜底通道\n\n联动开启后,**每个数据模组卡片上也有「由 Reloaded 运行」勾选**——万一某个模组本管理器兼容不了,勾上它就改走 Reloaded 加载,部署时自动搬运,不用手动折腾。\n\n### 对不用 Reloaded 的用户\n\n**完全无感。** 联动默认关闭,关闭时界面上没有任何 Reloaded 元素,部署、启动一切照旧。\n\n### 同时包含\n\nv2.5.0 语音模组自动转换、v2.4.x 系列(重名检测/材质修复补强/UI 分辨率补全/全家桶导入)及更早的全部修复。",
-  "asset_name": "GBFRModManager-v2.6.0.zip",
-  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.6.0/GBFRModManager-v2.6.0.zip",
-  "size": 55567601
+  "version": "2.6.1",
+  "notes": "## v2.6.1 · 内置使用教程\n\n两篇教程直接做进了程序里,点一下就能看:\n\n- **材质修复教程**:在「材质修复」对话框里点**「使用教程」**——什么时候用、基本三步、修完某部位反而不对时怎么换勾选组合、全勾为什么没问题;\n- **Reloaded 联动教程**:在「设置」的 Reloaded-II 联动开关旁点**「教程」**——一次性准备、日常操作、兜底通道、四个常见问题。\n\n不用再翻群记录找说明了。\n\n### 同时包含\n\nv2.6.0 Reloaded-II 共生及更早全部功能修复。",
+  "asset_name": "GBFRModManager-v2.6.1.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.6.1/GBFRModManager-v2.6.1.zip",
+  "size": 55571257
 }

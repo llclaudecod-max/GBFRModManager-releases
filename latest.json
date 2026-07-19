@@ -1,7 +1,7 @@
 {
-  "version": "2.6.1",
-  "notes": "## v2.6.1 · 内置使用教程\n\n两篇教程直接做进了程序里,点一下就能看:\n\n- **材质修复教程**:在「材质修复」对话框里点**「使用教程」**——什么时候用、基本三步、修完某部位反而不对时怎么换勾选组合、全勾为什么没问题;\n- **Reloaded 联动教程**:在「设置」的 Reloaded-II 联动开关旁点**「教程」**——一次性准备、日常操作、兜底通道、四个常见问题。\n\n不用再翻群记录找说明了。\n\n### 同时包含\n\nv2.6.0 Reloaded-II 共生及更早全部功能修复。",
-  "asset_name": "GBFRModManager-v2.6.1.zip",
-  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.6.1/GBFRModManager-v2.6.1.zip",
-  "size": 55571257
+  "version": "2.6.2",
+  "notes": "## v2.6.2\n\n**新功能**\n- **「修复压缩包」工具**：模组库页新增按钮，把模组压缩包拖进去，自动修复发白/发黑/模型隐形，导出一个修复版压缩包——可以直接发给用 Reloaded 的朋友，对方解压就能用。\n- **独立版小工具 GBFRFixTool**：只想要修复功能、不需要管理器的朋友，下载 `GBFRFixTool-v2.6.2.zip` 解压即用（自动找到游戏目录，自带所需组件）。\n\n**修复**\n- 一批老换装模组（如卡塔莉娜泳装）**皮肤发黑、怎么修都黑**：游戏更新调整了材质参数的排列方式，修复引擎已全面升级为按名对齐，部署时自动治好，无需任何操作。\n- 电脑上有多份 Reloaded 时，误报「Reloaded 里还没有添加过游戏」。\n- **下载目录或安装路径含中文时，一键升级失败**。⚠ 注意：从老版本升到本版时这个问题仍会出现——请手动下载本页 zip，解压后覆盖 `GBFRModManager.exe` 和 `_internal` 文件夹（数据夹 GBFRModManager_Data 不动），之后自动升级恢复正常。\n- 「游戏文件对不上」的报错现在会写清常见原因（用过 Reloaded/验证过完整性/游戏更新）和完整解决步骤。\n\n升级后请重新点一次「部署到游戏」。",
+  "asset_name": "GBFRModManager-v2.6.2.zip",
+  "asset_url": "https://github.com/llclaudecod-max/GBFRModManager-releases/releases/download/v2.6.2/GBFRModManager-v2.6.2.zip",
+  "size": 55593309
 }
